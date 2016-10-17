@@ -1,0 +1,59 @@
+#logout {
+	float: right;
+}
+
+
+#accountIn, #accountEx {
+	width: 50%;
+	margin-left: 35px;
+	display: inline-block;
+}
+#summIn, #summEx {
+	display: inline-block;
+	width: 60%;
+}
+
+#categoryIn, #categoryEx {
+	display: inline-block;
+	width: 60%;
+}
+#datetimepicker1, #datetimepicker2 {
+	width: 55%;
+}
+
+/*INCOME TAB*/
+li.active>a[href="#income"],
+li.active>a[href="#income"]:focus,
+li.active>a[href="#income"]:hover {
+	background-color: #14872d;
+	color: #fff;
+}
+#incomeTab {
+	padding: 50px 10px 10px 10px;
+	background-color: #14872d;
+	color: #fff;
+	border-radius:0px 10px 10px 10px;
+}
+.btn.btn-primary,
+#expensBTN {
+	margin: 0 auto;
+	display: block;
+	width: 100px;
+}
+
+
+/*EXPENSE TAB*/
+li.active>a[href="#expense"],
+li.active>a[href="#expense"]:focus,
+li.active>a[href="#expense"]:hover {
+	background-color: rgb(241, 151, 45);
+	color: #fff;
+}
+
+#expenseTab {
+	padding: 50px 10px 10px 10px;
+	background-color: rgb(241, 151, 45);
+	color: #fff;
+	border-radius:0px 10px 10px 10px;
+}
+.btn
